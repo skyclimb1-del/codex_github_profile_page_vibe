@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Design System Starter",
+    "period": "2025.10 – 2026.02",
+    "description": "디자인 토큰과 컴포넌트 규칙을 정리해 팀 생산성을 높인 디자인 시스템.",
+    "tags": ["TypeScript", "React", "Storybook", "Tokens"],
+    "links": {
+      "repo": "https://github.com/USERNAME/design-system",
+      "caseStudy": "https://USERNAME.github.io/blog/design-system"
+    }
+  },
+  {
+    "title": "Web Performance Sprint",
+    "period": "2025.06 – 2025.09",
+    "description": "이미지/코드 스플리팅/캐시 전략으로 Core Web Vitals를 개선한 프로젝트.",
+    "tags": ["Next.js", "Lighthouse", "RUM", "Caching"],
+    "links": {
+      "demo": "https://example.com",
+      "repo": "https://github.com/USERNAME/perf-sprint"
+    }
+  },
+  {
+    "title": "Developer Tools",
+    "period": "2024.11 – 2025.03",
+    "description": "DX 개선을 위한 CLI와 자동화 스크립트 모음.",
+    "tags": ["Node.js", "CLI", "GitHub Actions"],
+    "links": {
+      "repo": "https://github.com/USERNAME/dev-tools"
+    }
+  }
+]
+

@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="dark light" />
+    <title>홍길동 | Developer Portfolio</title>
+    <meta
+      name="description"
+      content="홍길동의 개발자 포트폴리오 — 프로젝트, 기술, 경험, 연락처를 한 곳에서."
+    />
+
+    <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./assets/styles.css" />
+  </head>
+  <body>
+    <a class="skip" href="#content">본문으로 건너뛰기</a>
+
+    <header class="topbar">
+      <div class="container topbar__inner">
+        <a class="brand" href="./">Hong</a>
+        <nav class="nav" aria-label="주요">
+          <a href="#about">소개</a>
+          <a href="#skills">기술</a>
+          <a href="#projects">프로젝트</a>
+          <a href="#contact">연락</a>
+        </nav>
+        <div class="topbar__actions">
+          <button id="themeToggle" class="btn btn--ghost" type="button">
+            테마
+          </button>
+          <a class="btn" href="#contact">채용 문의</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="content">
+      <section class="hero">
+        <div class="container hero__grid">
+          <div class="hero__copy">
+            <p class="badge">Available for opportunities</p>
+            <h1>
+              사용자 경험에 집착하는<br />
+              <span class="grad">프론트엔드 개발자</span> 홍길동입니다.
+            </h1>
+            <p class="lede">
+              빠르게 가설을 검증하고, 탄탄한 품질(성능/접근성/테스트)로 제품을
+              완성합니다.
+            </p>
+            <div class="hero__cta">
+              <a class="btn" href="#projects">프로젝트 보기</a>
+              <a class="btn btn--ghost" href="#contact">이력서 요청</a>
+            </div>
+            <ul class="chips" aria-label="핵심 키워드">
+              <li>TypeScript</li>
+              <li>React</li>
+              <li>Next.js</li>
+              <li>Testing</li>
+              <li>Performance</li>
+            </ul>
+          </div>
+
+          <div class="hero__card" role="region" aria-label="프로필 요약">
+            <div class="avatar" aria-hidden="true"></div>
+            <div class="hero__meta">
+              <h2 class="h3">홍길동</h2>
+              <p class="muted">Frontend Engineer · Seoul / Remote</p>
+              <div class="links">
+                <a href="https://github.com/USERNAME" target="_blank" rel="noreferrer"
+                  >GitHub</a
+                >
+                <a
+                  href="https://www.linkedin.com/in/USERNAME"
+                  target="_blank"
+                  rel="noreferrer"
+                  >LinkedIn</a
+                >
+                <a href="mailto:you@example.com">you@example.com</a>
+              </div>
+              <div class="facts">
+                <div class="fact">
+                  <div class="fact__k">관심사</div>
+                  <div class="fact__v">UX · DX · 디자인 시스템</div>
+                </div>
+                <div class="fact">
+                  <div class="fact__k">주요 성과</div>
+                  <div class="fact__v">LCP 40% 개선, 전환율 12%↑</div>
+                </div>
+              </div>
+              <div class="hero__mini">
+                <a class="btn btn--small btn--ghost" href="#about">더 알아보기</a>
+                <a class="btn btn--small" href="#contact">연락하기</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section__head">
+            <h2>소개</h2>
+            <p class="muted">
+              제품 목표를 이해하고, 작게 만들고, 빠르게 측정합니다.
+            </p>
+          </div>
+          <div class="grid grid--2">
+            <div class="card">
+              <h3 class="h4">일하는 방식</h3>
+              <ul class="list">
+                <li>문제/가설을 글로 정리 → 실험 설계</li>
+                <li>성능 예산, 접근성 기준을 정의</li>
+                <li>측정(로그/분석)으로 반복 개선</li>
+              </ul>
+            </div>
+            <div class="card">
+              <h3 class="h4">강점</h3>
+              <ul class="list">
+                <li>컴포넌트 설계와 재사용성</li>
+                <li>번들/렌더링 최적화</li>
+                <li>테스트 전략(단위/통합/E2E)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section">
+        <div class="container">
+          <div class="section__head">
+            <h2>기술</h2>
+            <p class="muted">실무에서 자주 쓰는 스택과 도구들입니다.</p>
+          </div>
+          <div class="grid grid--3">
+            <div class="card">
+              <h3 class="h4">Frontend</h3>
+              <ul class="tags">
+                <li>TypeScript</li>
+                <li>React</li>
+                <li>Next.js</li>
+                <li>Vite</li>
+                <li>Tailwind / CSS</li>
+              </ul>
+            </div>
+            <div class="card">
+              <h3 class="h4">Quality</h3>
+              <ul class="tags">
+                <li>Jest / Vitest</li>
+                <li>Playwright</li>
+                <li>Storybook</li>
+                <li>Accessibility</li>
+              </ul>
+            </div>
+            <div class="card">
+              <h3 class="h4">Infra</h3>
+              <ul class="tags">
+                <li>GitHub Actions</li>
+                <li>Docker</li>
+                <li>Node.js</li>
+                <li>Observability</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="container">
+          <div class="section__head">
+            <h2>프로젝트</h2>
+            <p class="muted">대표 프로젝트를 카드로 정리했습니다.</p>
+          </div>
+          <div id="projectsGrid" class="grid grid--3" aria-live="polite"></div>
+          <p class="muted small">
+            프로젝트 데이터는 <code>site/data/projects.json</code>에서 수정합니다.
+          </p>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container">
+          <div class="section__head">
+            <h2>연락</h2>
+            <p class="muted">
+              채용/협업/프로젝트 문의 환영합니다. 보통 24시간 내 답장합니다.
+            </p>
+          </div>
+          <div class="grid grid--2">
+            <div class="card">
+              <h3 class="h4">빠른 링크</h3>
+              <div class="links">
+                <a href="mailto:you@example.com">you@example.com</a>
+                <a href="https://github.com/USERNAME" target="_blank" rel="noreferrer"
+                  >github.com/USERNAME</a
+                >
+                <a
+                  href="https://www.linkedin.com/in/USERNAME"
+                  target="_blank"
+                  rel="noreferrer"
+                  >linkedin.com/in/USERNAME</a
+                >
+              </div>
+            </div>
+            <form class="card form" action="https://formspree.io/f/your-id" method="POST">
+              <h3 class="h4">메시지 보내기</h3>
+              <label>
+                <span>이메일</span>
+                <input name="email" type="email" autocomplete="email" required />
+              </label>
+              <label>
+                <span>메시지</span>
+                <textarea name="message" rows="4" required></textarea>
+              </label>
+              <button class="btn" type="submit">전송</button>
+              <p class="muted small">
+                Formspree 등을 연결하면 GitHub Pages에서도 폼 전송이 가능합니다.
+              </p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <p class="muted small">
+          © <span id="year"></span> 홍길동 · Built for GitHub Pages
+        </p>
+        <div class="footer__links">
+          <a href="#content">위로</a>
+          <a href="./rss.xml">RSS</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./assets/main.js" type="module"></script>
+  </body>
+</html>
